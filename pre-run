@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+sed -i "s|\"+l+\".web.telegram.org|$HOSTNAME/\"+l+\"|g" /opt/webogram/js/app.js
+sed -i "s/2496/$API_ID/g" /opt/webogram/js/app.js
+sed -i "s/8da85b0d5bfe62527e5b244c209159c3/$API_HASH/g" /opt/webogram/js/app.js
