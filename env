@@ -1,0 +1,4 @@
+API_ID          = 2496
+API_HASH        = 8da85b0d5bfe62527e5b244c209159c3
+HOSTNAME        = telegram.example.com
+NGINX_RESOLVER  = 8.8.8.8
