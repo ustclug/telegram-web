@@ -3,8 +3,8 @@
 apt-get update
 apt-get install -qyy nginx
 
-cd /opt/webogram
-wget https://web.telegram.org/webogram.appcache
+wget -O /opt/webogram/webogram.appcache https://web.telegram.org/webogram.appcache
+wget -O /opt/webogram/js/locales/en-us.json https://github.com/TelegramCN/TelegramCN.github.io/raw/master/transifex/Web.json
 
 chown -R www-data:www-data /opt/webogram
 
