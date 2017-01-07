@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+apk add --no-cache nginx openssl
+
+wget -O /opt/webogram/webogram.appcache https://web.telegram.org/webogram.appcache
+
+chown -R nginx:nginx /opt/webogram

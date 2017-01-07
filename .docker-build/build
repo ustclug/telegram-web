@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+apt-get update
+apt-get install -qyy git build-essential zip
+WEBOGRAM_SRC=/usr/local/src/webogram
+mkdir -p $WEBOGRAM_SRC
+git clone https://github.com/zhukov/webogram.git $WEBOGRAM_SRC
+cd $WEBOGRAM_SRC
+git checkout a5f061fffd4f40d5593bf9edabdbde81bf1db9e0
+npm install -g gulp
+npm install
+version=0.5.5 make
+mv $WEBOGRAM_SRC/dist_package /opt/webogram
+rm -rf $WEBOGRAM_SRC
+apt-get clean -qq
+rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
