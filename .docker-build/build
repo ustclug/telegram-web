@@ -6,7 +6,7 @@ WEBOGRAM_SRC=/usr/local/src/webogram
 mkdir -p $WEBOGRAM_SRC
 git clone https://github.com/zhukov/webogram.git $WEBOGRAM_SRC
 cd $WEBOGRAM_SRC
-git checkout -qf a5f061fffd4f40d5593bf9edabdbde81bf1db9e0
+git checkout -qf 61401c8a14d643a472ec20baddea8480e9cede2e
 npm install -g gulp
 npm install
 version=0.5.5 make
