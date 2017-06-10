@@ -2,13 +2,13 @@
 
 Telegram Web is a self-hosted Telegram Web Client.
 
-The original project is [webogram](https://github.com/zhukov/webogram) written by zhukov.
+The original project [webogram](https://github.com/zhukov/webogram) is written by zhukov.
 
 ## Deploy
 
-First of all, you need to apply an applocation on [my.telegram.org](https://my.telegram.org), and get your own `API_ID` and `API_HASH`.
+First of all, you need to apply an application on [my.telegram.org](https://my.telegram.org), and get your own `API_ID` and `API_HASH`.
 
-Because the project is build of docker, you should [install docker](https://docs.docker.com/engine/installation/) before running the following command:
+Because the project is build via docker, you should [install docker](https://docs.docker.com/engine/installation/) before running the following command:
 
 ```shell
 docker run -itd --restart=always \
