@@ -8,7 +8,7 @@ The original project [webogram](https://github.com/zhukov/webogram) is written b
 
 First of all, you need to apply an application on [my.telegram.org](https://my.telegram.org), and get your own `API_ID` and `API_HASH`.
 
-Because the project is build via docker, you should [install docker](https://docs.docker.com/engine/installation/) before running the following command:
+Because the project is build via docker, you need to [install docker](https://docs.docker.com/engine/installation/) before running the following command:
 
 ```shell
 docker run -itd --restart=always \
@@ -19,6 +19,8 @@ docker run -itd --restart=always \
 	-p 80:80 \
 	ustclug/telegram-web
 ```
+
+For more detail, please refer to [the page](https://github.com/freedocs/docs/blob/master/使用nginx反向代理telegram网页客户端(单域名).md).
 
 ***
 
