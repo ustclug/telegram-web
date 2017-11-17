@@ -1,4 +1,6 @@
 # Telegram Web
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fustclug%2Ftelegram-web.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fustclug%2Ftelegram-web?ref=badge_shield)
+
 
 Telegram Web is a self-hosted Telegram Web Client.
 
@@ -25,3 +27,7 @@ For more detail, please refer to [the page](https://github.com/freedocs/docs/blo
 ***
 
 [Maintaining documentation](https://docs.ustclug.org/services/telegram-web/telegram-web.html)
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fustclug%2Ftelegram-web.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fustclug%2Ftelegram-web?ref=badge_large)
